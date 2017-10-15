@@ -1,0 +1,21 @@
+{% extends post.type.theme_layout.key %}
+
+{% block content %}
+    <div id="posts">
+        <div class="container">
+            <article id="post">
+
+                <header>
+                    <h1>{{ post.title }}</h1>
+                </header>
+
+                <div class="content">
+                    {% block post %}
+                        {{ content|raw }}
+                    {% endblock %}
+                </div>
+
+            </article>
+        </div>
+    </div>
+{% endblock %}
