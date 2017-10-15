@@ -1,0 +1,30 @@
+.quote-feature {
+  border: 1px solid $gray-lighter;
+  border-radius: $border-radius-base;
+  margin: ($padding-large-vertical * 2) 0;
+  padding-top: $padding-large-vertical;
+  padding-bottom: $padding-large-vertical;
+
+  .quote-feature-title {
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid $gray-lighter;
+    padding-bottom: $padding-large-vertical;
+    margin-bottom: $padding-large-vertical;
+
+    h3 {
+      line-height: 30px;
+      margin: 0;
+    }
+
+    strong {
+      line-height: 30px;
+      display: block;
+      float: right;
+    }
+  }
+
+  .quote-feature-content {
+  }
+}
